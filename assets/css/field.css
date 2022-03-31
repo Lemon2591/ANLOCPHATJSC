@@ -1,0 +1,5 @@
+.intro-title > ul > li{
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+    list-style-type: circle;
+}

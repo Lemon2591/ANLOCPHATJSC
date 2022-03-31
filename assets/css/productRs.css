@@ -1,0 +1,41 @@
+/* PC */
+
+@media (min-width: 1024px) {
+    
+    
+    
+    }
+    
+    /* Tablet */
+    @media (min-width:740px) and (max-width:1024px ) {
+        .product-container-content-img {
+            display: block;
+        }
+        
+        .product-container-content-img > img{
+            padding: 0 10rem;
+        }
+    
+     }     
+    
+    
+     /* Mobile */
+    
+     @media (max-width:739px ){
+    
+        .product-container-content-img {
+            display: block;
+        }
+
+        .product-container-content-title {
+            font-size: 1.6rem;
+            margin-left: 2rem;
+        }
+        
+        .product-container > h3 {
+            color: #1e87f0;
+            margin: 0 2rem;
+        }
+        
+        
+     }

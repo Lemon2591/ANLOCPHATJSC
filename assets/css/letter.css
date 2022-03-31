@@ -1,0 +1,9 @@
+.intro-title > p {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom:  2rem;
+}
+
+.intro-text > p {
+    font-size: 1.5rem;
+}
