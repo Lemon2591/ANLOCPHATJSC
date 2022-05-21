@@ -1,3 +1,72 @@
+.main {
+    position: relative;
+}
+.btn-call-chat {
+    position: absolute;
+    z-index: 99;
+}
+.btn-call {
+    bottom: 120px !important;
+}
+.btn-call, .btn-chat {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+}
+
+.btn-call> a  > img {
+    width: 100%;
+    animation: 1s linear 0s infinite alternate tada ;
+
+
+}
+.btn-chat > a  > img {
+    width: 100%;
+    animation: 1s linear 0s infinite alternate tada ;
+}
+
+@keyframes tada {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    10%,
+    20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+  
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+  
+    40%,
+    60%,
+    80% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  .animate__tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+  }
+
+
+
+
 .header-up-container {
     max-width: 1200px;
     display: flex;
