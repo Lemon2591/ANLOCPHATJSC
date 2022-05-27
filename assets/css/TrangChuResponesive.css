@@ -200,4 +200,17 @@
         text-align: center;
         margin-top: 2rem;
     }
+
+    .news-container > ul > li > .news-img {
+        width: 100%;
+    }
+    .news-container > ul > li {
+        display: block;
+    }
+    .intro-title {
+        padding: 15px;
+    }
+    .news-content {
+        margin: 0 10px;
+    }
  }
