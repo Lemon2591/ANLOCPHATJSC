@@ -726,6 +726,16 @@ ul, li {
     border: #ccc solid 1px;
 }
 
+.new-projects  > img {
+    background-size: cover;
+    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25.5rem;
+    display: table;
+    border: #ccc solid 1px;
+}
+
 .news-container > ul > li {
     margin-top: 2rem;
     display: flex;
